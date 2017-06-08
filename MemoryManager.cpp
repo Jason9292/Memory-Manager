@@ -92,10 +92,11 @@ void MemoryManager::free(unsigned char *blockptr)
 		mergeForward(tmp);
 	}
 
-}
 
 void MemoryManager::mergeForward(blocknode *p)
 // merges two consecutive free blocks
 // using a pointer to the first blocknode;
 // following blocknode is deleted
 {
+}
+	
